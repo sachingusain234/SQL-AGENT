@@ -2,7 +2,6 @@ import os
 from langchain_groq import ChatGroq
 from dotenv import load_dotenv
 from langchain_community.agent_toolkits import SQLDatabaseToolkit
-import mysql.connector
 from langchain_community.utilities import SQLDatabase
 from urllib.parse import quote_plus
 from langchain.agents import create_agent
